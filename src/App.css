@@ -1,0 +1,23 @@
+.app {
+  padding: 10px;
+}
+
+.app .title {
+  text-align: center;
+  margin: 40px 0 80px 0;
+  color: #555;
+}
+
+.app .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .app .title {
+    font-size: 26px;
+  }
+}
